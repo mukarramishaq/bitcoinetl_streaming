@@ -1,0 +1,3 @@
+[submodule "bitcoin-etl"]
+	path = bitcoin-etl
+	url = https://github.com/mukarramishaq/bitcoin-etl
