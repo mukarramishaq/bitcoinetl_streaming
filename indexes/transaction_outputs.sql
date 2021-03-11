@@ -1,0 +1,1 @@
+alter table transaction_outputs add constraint transaction_outputs_pk primary key (pkey);

@@ -1,0 +1,1 @@
+alter table transaction_inputs add constraint transaction_inputs_pk primary key (pkey);
