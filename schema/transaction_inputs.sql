@@ -1,6 +1,8 @@
 create table transaction_inputs
 (
 pkey varchar(200),
+block_number bigint,
+transaction_hash varchar(66),
 index bigint,
 spent_transaction_hash varchar(66) DEFAULT NULL,
 spent_output_index bigint DEFAULT NULL,
