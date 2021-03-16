@@ -9,7 +9,7 @@ spent_output_index bigint DEFAULT NULL,
 script_asm text DEFAULT NULL,
 script_hex text DEFAULT NULL,
 sequence bigint DEFAULT NULL,
-required_signatures boolean,
+required_signatures varchar(100),
 type varchar(20),
 addresses json,
 value bigint
